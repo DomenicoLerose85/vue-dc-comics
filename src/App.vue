@@ -1,10 +1,16 @@
 <template>
   <div id="app">
+  <header>
    <app-header/>
-   <main>
+  </header>
+
+  <main>
    <app-grid/>
-   </main>
+  </main>
+
+  <footer>
    <app-footer/>
+  </footer>
   </div>
 </template>
 
