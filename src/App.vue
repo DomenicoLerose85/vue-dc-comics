@@ -1,14 +1,27 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+   <app-header/>
+  </div>
 </template>
 
 <script>
+import AppHeader from './components/AppHeader.vue'
 
 
 export default {
   name: "App",
-  components: {},
+  components: {
+    AppHeader,
+  },
 };
 </script>
 
-<style></style>
+
+<style lang='scss'>
+@import './style/variables';
+@import './style/general';
+
+
+
+
+</style>
