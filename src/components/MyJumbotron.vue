@@ -1,5 +1,5 @@
 <template>
-<img src="../assets/img/jumbotron.jpg" alt="jumbotron">
+<section class="jumbo"></section>
 
     
 </template>
@@ -13,10 +13,10 @@ export default {
 
 <style lang="scss" scoped>
 
-img{
-    height: 60vh;
-    width: 100vh;
-   
+.jumbo{
+    height: 50vh;
+    background-image: url("../assets/img/jumbotron.jpg");
+    background-size: cover;
 }
 
 </style>
