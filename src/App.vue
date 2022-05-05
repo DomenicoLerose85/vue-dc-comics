@@ -5,6 +5,7 @@
   </header>
 
   <main>
+   <MyJumbotron/>
    <app-grid/>
   </main>
 
@@ -20,12 +21,14 @@ import AppHeader from './components/AppHeader.vue'
 import AppGrid from './components/AppGrid.vue'
 import MiddleFooter from './components/MiddleFooter.vue'
 import AppFooter from './components/AppFooter.vue'
+import MyJumbotron from './components/MyJumbotron.vue'
 
 
 export default {
   name: "App",
   components: {
     AppHeader,
+    MyJumbotron,
     AppGrid,
     MiddleFooter,
     AppFooter,
