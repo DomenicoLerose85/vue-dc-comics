@@ -98,6 +98,7 @@ ul{
 li{
  padding: 10px;
  font-size: 10px;
+ font-weight: bold;
  display: flex;
  align-items: center;
  border-bottom: 2px solid transparent;
