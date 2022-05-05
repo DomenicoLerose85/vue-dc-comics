@@ -1,6 +1,6 @@
 <template>
+<img src="../assets/img/jumbotron.jpg" alt="jumbotron">
 
-<p> section </p>
     
 </template>
 
@@ -13,10 +13,10 @@ export default {
 
 <style lang="scss" scoped>
 
-.jumbotron{
-    height: 50vh;
-    background-image: url("../assets/img/jumbotron.jpg");
-    background-size: cover;
+img{
+    height: 60vh;
+    width: 100vh;
+   
 }
 
 </style>
