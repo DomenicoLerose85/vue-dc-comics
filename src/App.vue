@@ -27,6 +27,11 @@ export default {
     AppGrid,
     AppFooter,
   },
+  data(){
+    return {
+      listaHeader: ["Characters", "Comics", "Movies", "Tv", "Games", "Collectibles", "Videos", "Fans", "News", "Shop"],
+    }
+  }
 };
 </script>
 
